@@ -1,0 +1,50 @@
+#wrap{width: 100%; height: 5000px; margin: 0 auto;}
+#header{width: 100%; height: 150px; position: absolute; top: 0; z-index: 3;background: rgba(255,255,255,0.5);}
+#visual_main {width: 100%; height: 450px; }
+#section01{}
+#section02{}
+#section03{}
+#section04{}
+#section05{}
+#footer{}
+
+/*header*/
+.topmenu_box {width: 100%; height: 40px; background: #0050a5;}
+.topmenu_box ul {width: 1200px; height: 40px; margin: 0 auto; text-align: right;}
+.topmenu_box ul li {height: 40px; line-height: 40px; display: inline-block; font-size: 14px; padding:0 30px}
+.topmenu_box ul li img{font-size: 14px; float: right; color: #fff;}
+.topmenu_box ul li a {display: block; color:#7fb6f4}
+
+
+.topbox {width: 1200px; height: 102px;  position: relative; top: 0; margin: 0 auto;} 
+.topbox h1{width: 185px; height: 42px; float: left; padding: 20px 0;}
+.topbox .gnb{width: 900px; height: 70px; float: right;}
+.topbox .gnb > ul {font-size: 0; float: left;}
+.topbox .gnb > ul > li {height: 110px; line-height: 110px; font-size: 20px; position: relative; float: left;}
+.topbox .gnb > ul > li > a {display: block; color:#383838; padding: 0 50px;}
+
+#header:hover {background: rgba(255,255,255,0.9)}
+
+.topbox .gnb .lnb {width: 100%; position: absolute; z-index: 4; height: 0px; overflow: hidden; transition: .2s; }
+.topbox .gnb .lnb > li {height: 52px; line-height: 52px; padding: 0 35px; position: relative; font-size: 18px; }
+.topbox .gnb .lnb li a {color:#fff; display: block;transition: .2s;}
+.topbox .gnb .lnb > li:before {content:""; width: 4px; height: 4px; border-radius: 50%; background: #2dadbb; position: absolute; left: 25px; top:20px;}
+#header:hover .lnb {height: 280px;}
+.topbox .gnb li:hover .lnb {background: #2dadbb url('../images/bg_lnb.png') 130px 100px no-repeat ;}
+.topbox .gnb li .lnb li:hover a {color:#222}
+.topbox .gnb li:hover li:before {background: rgb(4,57,110);}
+.topbox .gnb li .lnb li:hover:before {background:#000;}
+
+.topbox .gnb li .lnb li .depth3 {position: absolute; background: #092641; right: -10px; top: 0px; display: none; z-index: 5;}
+.topbox .gnb li .lnb li .depth3:before {content:""; position: absolute; width: 15px; height: 15px; background:#092641; left: -7px; top: 20px; transform: rotate(45deg);}
+.topbox .gnb li .lnb li .depth3 a {color:#fff}
+.topbox .gnb li .lnb li:hover .depth3 {display: block;}
+
+.topbox .gnb li .lnb li .depth3 li {width:100px; height: 50px;  line-height: 50px; font-size: 16px; text-align: center;}
+
+
+.lnb_bg {width: 100%; height: 0px; background:rgba(4,57,110,0.92); position: absolute; top: 150px; transition: .2s;}
+#header:hover .lnb_bg {height: 280px;}
+
+
+#sudtool{width: 100%; height: 1227px; background-color: #2dadbb;}

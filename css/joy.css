@@ -1,0 +1,84 @@
+@charset "utf-8";
+@import url("https://cdn.jsdelivr.net/gh/moonspam/NanumBarunGothic@1.0/nanumbarungothicsubset.css");
+
+
+* {margin: 0; padding: 0;}
+li {list-style: none}
+img {border: 0}
+a {text-decoration: none; color: #333}
+body {font-family: '나눔바른고딕', 'NanumBarunGothic', sans-serif; }
+
+#header {width: 100%; min-width:980px; height: 125px; background: url('../images/bg_header.jpg')}
+#visual {width: 100%; min-width:980px; height: 422px; background: url('../images/main.jpg') center top no-repeat; position: relative; margin: 3px 0}
+#section {width: 100%; min-width:980px; height: 208px; background: url('../images/bg_section.jpg') repeat-x}
+#footer {width: 100%; min-width:980px; height: 64px; background: #222;}
+
+#header .topset {width: 980px; margin: 0 auto}
+#header .topset h1 {width: 149px; height: 43px; float: left; margin:  40px 0 0 70px}
+#header .topset .topmenu {width: 250px; height: 26px; float: right; text-align: right}
+#header .topset .topmenu ul {font-size: 0}
+#header .topset .topmenu ul.logout_box {display: none}
+#header .topset .topmenu li {height: 26px; line-height: 26px; font-size: 13px; display: inline-block; background:url('../images/bul_topmenu.jpg') no-repeat 4px center; position: relative; }
+#header .topset .topmenu li a {color:#ccc; display: block; padding: 0 12px;}
+#header .topset .gnb {width: 600px; height: 60px; float: right; text-align: right}
+#header .topset .gnb ul {font-size: 0}
+#header .topset .gnb > ul > li {height: 60px; line-height: 60px; display: inline-block; background:url('../images/bg_gnb.jpg') no-repeat 0 center; font-size: 16px; position: relative; border-radius: 20px}
+#header .topset .gnb > ul > li:hover {background: #be433c;}
+#header .topset .gnb > ul > li.first {background-image: none}
+#header .topset .gnb > ul > li > a {color:#fff; display: block; padding: 0 20px}
+#header .topset .gnb > ul > li .lnb {position: absolute; z-index: 2; font-size: 14px; width: 100%; background: rgba(56, 51, 41, 0.9); border-radius: 0 0 30px 30px; padding-bottom: 10px; opacity: 0; transition: .3s; max-height: 0; overflow: hidden; text-align: center}
+#header .topset .gnb > ul > li:hover .lnb {opacity: 1; max-height: 300px;}
+#header .topset .gnb > ul > li .lnb li {height: 45px; line-height: 45px; }
+#header .topset .gnb > ul > li .lnb li a {color:#fff; display: block; }
+#header .topset .gnb > ul > li .lnb li:hover {background: #bb623f; border-radius: 20px}
+
+
+
+#visual .main_text {width: 573px; height: 110px; position: absolute; left: 50%; top: 141px; margin-left: -429px; animation: km 2s}
+#visual .main_text img {width: 100%}
+@keyframes km {
+    0% {top: 141px; opacity: 0; left: 70%}
+    60% {top: 141px; opacity: 1; left: 45%}
+    100% {top:141px; opacity: 1; left: 50%}
+}
+
+
+
+#section .contents_wrap {width: 980px; height: 208px; margin: 0 auto; }
+#section .contents_wrap p {width: 39px; height: 190px; float:left; background: url('../images/bg_block.jpg') no-repeat center top}
+
+
+#section .contents_wrap .news_box {width: 269px; height: 160px;  background-color: aquamarine; float: left; margin: 19px 0 0 60px}
+.contents_wrap > div > h2 {width: 100%; height: 26px; line-height: 26px; border-bottom: 1px solid #333; font-size: 16px}
+.contents_wrap > div > h2 span {float: right; font-size: 11px; padding: 0 5px}
+.contents_wrap > div > h2 span i {font-size: 10px; margin-left: 4px;}
+.news_box ul {margin-top: 10px;}
+.news_box ul li {width: 190px; height: 22px; line-height: 22px; font-size: 14px; float: left; border: 1px solid}
+.news_box ul li:nth-child(2n) {width: 70px; font-size: 12px; float: right;}
+
+#section .contents_wrap .product_box {width: 269px; height: 160px; background-color: aquamarine; float: left; margin: 19px 0 0 0 }
+.product_box > div {width: 257px; height: 110px; margin: 18px auto 0 auto; border: 1px solid}
+.product_box > div ul {width:124px; float: left; background: #ddd}
+.product_box > div ul:nth-child(2) {width:124px; float: right;}
+.product_box > div .thumb {width: 124px; height: 81px;}
+.product_box > div li {height: 23px; line-height: 23px; text-align: center; font-size: 14px}
+
+
+#section .contents_wrap .banner_box {width: 269px; height: 160px; background-color: aquamarine; float: left; margin: 19px 0 0 0 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
